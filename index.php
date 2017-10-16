@@ -42,9 +42,9 @@
 	
 		<?php include 'views/about.php';?>
 	
-		<?php include 'views/services.php';?>
+		<?php include 'views/interests.php';?>
 	
-		<?php include 'views/portfolio.php';?>
+		<!--?php include 'views/portfolio.php';?-->
 	
 		<?php include 'views/menu-header-footer/footer.php';?>
 	
