@@ -1,14 +1,10 @@
 		<header class="masthead">
 			<div class="header-content">
 				<div class="header-content-inner">
-					<h1 id="homeHeading">Your Favorite Source of Free Bootstrap
-						Themes</h1>
+					<h1 id="homeHeading">Gilles Henrard</h1>
 					<hr>
-					<p>Start Bootstrap can help you build better websites using the
-						Bootstrap CSS framework! Just download your template and start
-						going, no strings attached!</p>
-					<a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find
-						Out More</a>
+					<p>Fond of development, psyched on technology, passionate about music</p>
+					<a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Discover me</a>
 				</div>
 			</div>
 		</header>
