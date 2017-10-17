@@ -1,13 +1,13 @@
-		<section class="bg-light" id="experience">
+		<section class="bg-primary" id="experience">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-8 mx-auto text-center">
-						<h2 class="section-heading text-primary">What I've done so far</h2>
-						<hr class="primary">
+						<h2 class="section-heading text-light">What I've done so far</h2>
+						<hr class="light">
         				<ul class="timeline">
         					<li>
-        						<div class="timeline-badge">
-        							<i><img src="views/img/logo/bvd.PNG" class="img-fluid img-circle" /></i>
+        						<div class="timeline-badge" style="background-image: url('img/logo/bvd.png')">
+        							<!--i><img src="views/img/logo/bvd.PNG" class="img-fluid img-circle" /></i-->
         						</div>
         						<div class="timeline-panel">
         							<div class="timeline-heading">
@@ -43,8 +43,8 @@
         						</div>
         					</li>
         					<li class="timeline-inverted">
-        						<div class="timeline-badge">
-        							<img src="views/img/logo/curia.png" class="img-fluid img-circle" />
+        						<div class="timeline-badge" style="background-image: url('img/logo/curia.png')">
+        							<!--img src="views/img/logo/curia.png" class="img-fluid img-circle" /-->
         						</div>
         						<div class="timeline-panel">
         							<div class="timeline-heading">
@@ -77,7 +77,7 @@
         					</li>
         					<li>
         						<div class="timeline-badge">
-        							<i><img src="views/img/logo/catella.PNG" class="img-fluid img-circle" /></i>
+        							<i><img src="views/img/logo/catella.png" class="img-fluid img-circle" /></i>
         						</div>
         						<div class="timeline-panel">
         							<div class="timeline-heading">
@@ -102,7 +102,7 @@
                                             - Help outsourcing the helpdesk service to CTG, in order to provide a call center coverage.
                                             - Set up standard templates, build procedures
                                             - Review the evolution of the infrastructure and report the eventual problems we could encounter with the system to the IT team.
-                                            - Propose hardware oriented support, such as placing server blades, cabling, conference rooms setup, …</p>
+                                            - Propose hardware oriented support, such as placing server blades, cabling, conference rooms setup, ï¿½</p>
                                             
             								<p>Technologies used</p>
             								<ul>
