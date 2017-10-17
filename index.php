@@ -28,6 +28,8 @@
 		<!-- Plugin CSS -->
 		<link href="views/vendor/magnific-popup/magnific-popup.css"
 			rel="stylesheet">
+		<link href="views/vendor/hbarchart/css/style.css"
+			rel="stylesheet" />
 		
 		<!-- Custom styles for this template -->
 		<link href="views/css/creative.min.css" rel="stylesheet">
@@ -45,6 +47,7 @@
 		<?php include 'views/interests.php';?>
 	
 		<!--?php include 'views/portfolio.php';?-->
+		<?php include 'views/skills.php';?>
 	
 		<?php include 'views/menu-header-footer/footer.php';?>
 	
@@ -57,9 +60,12 @@
 		<script src="views/vendor/jquery-easing/jquery.easing.min.js"></script>
 		<script src="views/vendor/scrollreveal/scrollreveal.min.js"></script>
 		<script src="views/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+		<script type="text/javascript" src=views/vendor/hbarchart/js/hBarChart.js></script>
+		<script type="text/javascript" src=views/vendor/hbarchart/js/script.js></script>
 	
 		<!-- Custom scripts for this template -->
 		<script src="views/js/creative.min.js"></script>
+		<script type="text/javascript" src="views/js/base.js"></script>
 	
 	</body>
 
