@@ -21,9 +21,9 @@
         										Brussels, Belgium</small>
         								</p>
         							</div>
+    								<hr class="primary" />
         							<div class="timeline-body">
         								<p>2nd line support for the FACT (previously Bankscore) application.</p>
-        								<hr class="primary" />
         								<i class="fa fa-2x fa-chevron-circle-down text-primary sr-icons" data-toggle="collapse" data-target="#bvd"></i>
         								<div class="collapse" id="bvd">
             								<p>Technologies used</p>
@@ -49,19 +49,19 @@
         						<div class="timeline-panel">
         							<div class="timeline-heading">
         								<h4 class="timeline-title">Service Desk Operator</h4>
-        								<h5>Court of Justice of the European Union</h5>
+        								<h5><strong>Court of Justice of the European Union</strong></h5>
         								<p>
         									<small class="text-muted"><i class="fa fa-calendar-o"></i>
-        										Nov 2015 – Dec 2016</small>
+        										Nov 2015 - Dec 2016</small>
         									<br/>
         									<small class="text-muted"><i class="fa fa-compass"></i>
         										Luxembourg City, Luxembourg</small>
         								</p>
         							</div>
+        							<hr class="primary" />
         							<div class="timeline-body">
         								<p>First level service desk agent at the European Court of Justice.
         								The support is provided in English and French.</p>
-        								<hr class="primary" />
         								<i class="fa fa-2x fa-chevron-circle-down text-primary sr-icons" data-toggle="collapse" data-target="#curia"></i>
         								<div class="collapse" id="curia">
             								<p>Technologies used</p>
@@ -76,106 +76,72 @@
         						</div>
         					</li>
         					<li>
-        						<div class="timeline-badge danger">
-        							<i class="glyphicon glyphicon-credit-card"></i>
+        						<div class="timeline-badge">
+        							<i><img src="views/img/logo/catella.PNG" class="img-fluid img-circle" /></i>
         						</div>
         						<div class="timeline-panel">
         							<div class="timeline-heading">
-        								<h4 class="timeline-title">Mussum ipsum cacilds</h4>
+        								<h4 class="timeline-title">Service Desk Operator</h4>
+        								<h5><strong>Catella</strong></h5>
+        								<p>
+        									<small class="text-muted"><i class="fa fa-calendar-o"></i>
+        										Jun 2015 - Oct 2015</small>
+        									<br/>
+        									<small class="text-muted"><i class="fa fa-compass"></i>
+        										Capellen, Luxembourg</small>
+        								</p>
         							</div>
+        							<hr class="primary" />
         							<div class="timeline-body">
-        								<p>Mussum ipsum cacilds, vidis litro abertis. Consetis
-        									adipiscings elitis. Pra lá , depois divoltis porris, paradis.
-        									Paisis, filhis, espiritis santis. Mé faiz elementum girarzis,
-        									nisi eros vermeio, in elementis mé pra quem é amistosis quis
-        									leo. Manduma pindureta quium dia nois paga. Sapien in monti
-        									palavris qui num significa nadis i pareci latim. Interessantiss
-        									quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-        							</div>
-        						</div>
-        					</li>
-        					<li class="timeline-inverted">
-        						<div class="timeline-panel">
-        							<div class="timeline-heading">
-        								<h4 class="timeline-title">Mussum ipsum cacilds</h4>
-        							</div>
-        							<div class="timeline-body">
-        								<p>Mussum ipsum cacilds, vidis litro abertis. Consetis
-        									adipiscings elitis. Pra lá , depois divoltis porris, paradis.
-        									Paisis, filhis, espiritis santis. Mé faiz elementum girarzis,
-        									nisi eros vermeio, in elementis mé pra quem é amistosis quis
-        									leo. Manduma pindureta quium dia nois paga. Sapien in monti
-        									palavris qui num significa nadis i pareci latim. Interessantiss
-        									quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-        							</div>
-        						</div>
-        					</li>
-        					<li>
-        						<div class="timeline-badge info">
-        							<i class="glyphicon glyphicon-floppy-disk"></i>
-        						</div>
-        						<div class="timeline-panel">
-        							<div class="timeline-heading">
-        								<h4 class="timeline-title">Mussum ipsum cacilds</h4>
-        							</div>
-        							<div class="timeline-body">
-        								<p>Mussum ipsum cacilds, vidis litro abertis. Consetis
-        									adipiscings elitis. Pra lá , depois divoltis porris, paradis.
-        									Paisis, filhis, espiritis santis. Mé faiz elementum girarzis,
-        									nisi eros vermeio, in elementis mé pra quem é amistosis quis
-        									leo. Manduma pindureta quium dia nois paga. Sapien in monti
-        									palavris qui num significa nadis i pareci latim. Interessantiss
-        									quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-        								<hr>
-        								<div class="btn-group">
-        									<button type="button"
-        										class="btn btn-primary btn-sm dropdown-toggle"
-        										data-toggle="dropdown">
-        										<i class="glyphicon glyphicon-cog"></i> <span class="caret"></span>
-        									</button>
-        									<ul class="dropdown-menu" role="menu">
-        										<li><a href="#">Action</a></li>
-        										<li><a href="#">Another action</a></li>
-        										<li><a href="#">Something else here</a></li>
-        										<li class="divider"></li>
-        										<li><a href="#">Separated link</a></li>
-        									</ul>
+        								<p>Service desk agent at Catella Bank (private investments bank)
+        								The support is provided in English and French.</p>
+        								<i class="fa fa-2x fa-chevron-circle-down text-primary sr-icons" data-toggle="collapse" data-target="#catella"></i>
+        								<div class="collapse" id="catella">
+        									<p>Responsibilities :
+                                            - Help users with general and more specific issues with their Windows session, phone, tools and requests.
+                                            - Help outsourcing the helpdesk service to CTG, in order to provide a call center coverage.
+                                            - Set up standard templates, build procedures
+                                            - Review the evolution of the infrastructure and report the eventual problems we could encounter with the system to the IT team.
+                                            - Propose hardware oriented support, such as placing server blades, cabling, conference rooms setup, …</p>
+                                            
+            								<p>Technologies used</p>
+            								<ul>
+            									<li>Microsoft Active Directory</li>
+            									<li>Microsoft Application server</li>
+            									<li>Microsoft File server</li>
+            									<li>Sysprep / Windows ADK</li>
+            									<li>Citrix (XenDesktop, XenServer)</li>
+            									<li>Blackshield</li>
+            									<li>IBM Notes/Domino and Admin</li>
+            									<li>Jira</li>
+            									<li>ScopTel</li>
+            									<li>Xerox Center</li>
+            									<li>Eset Nod32 server</li>
+            								</ul>
         								</div>
         							</div>
         						</div>
         					</li>
-        					<li>
-        						<div class="timeline-panel">
-        							<div class="timeline-heading">
-        								<h4 class="timeline-title">Mussum ipsum cacilds</h4>
-        							</div>
-        							<div class="timeline-body">
-        								<p>Mussum ipsum cacilds, vidis litro abertis. Consetis
-        									adipiscings elitis. Pra lá , depois divoltis porris, paradis.
-        									Paisis, filhis, espiritis santis. Mé faiz elementum girarzis,
-        									nisi eros vermeio, in elementis mé pra quem é amistosis quis
-        									leo. Manduma pindureta quium dia nois paga. Sapien in monti
-        									palavris qui num significa nadis i pareci latim. Interessantiss
-        									quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-        							</div>
-        						</div>
-        					</li>
         					<li class="timeline-inverted">
-        						<div class="timeline-badge success">
-        							<i class="glyphicon glyphicon-thumbs-up"></i>
+        						<div class="timeline-badge">
+        							<img src="views/img/logo/adidas.png" class="img-fluid img-circle" />
         						</div>
         						<div class="timeline-panel">
         							<div class="timeline-heading">
-        								<h4 class="timeline-title">Mussum ipsum cacilds</h4>
+        								<h4 class="timeline-title">Helpdesk Support</h4>
+        								<h5><strong>Adidas</strong></h5>
+        								<p>
+        									<small class="text-muted"><i class="fa fa-calendar-o"></i>
+        										Jun 2014 - Mar 2015</small>
+        									<br/>
+        									<small class="text-muted"><i class="fa fa-compass"></i>
+        										Maastricht, Netherlands</small>
+        								</p>
         							</div>
+        							<hr class="primary" />
         							<div class="timeline-body">
-        								<p>Mussum ipsum cacilds, vidis litro abertis. Consetis
-        									adipiscings elitis. Pra lá , depois divoltis porris, paradis.
-        									Paisis, filhis, espiritis santis. Mé faiz elementum girarzis,
-        									nisi eros vermeio, in elementis mé pra quem é amistosis quis
-        									leo. Manduma pindureta quium dia nois paga. Sapien in monti
-        									palavris qui num significa nadis i pareci latim. Interessantiss
-        									quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+        								<p>Customer support for the Adidas online shop, for France, Belgium, UK, Denmark, Finland and Sweden.
+        								The support is provided in English and French.</p>
         							</div>
         						</div>
         					</li>
