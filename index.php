@@ -9,7 +9,7 @@
 		<meta name="description" content="">
 		<meta name="author" content="">
 		
-		<title>Creative - Start Bootstrap Theme</title>
+		<title>Storefront - Gilles Henrard</title>
 		
 		<!-- Bootstrap core CSS -->
 		<link href="views/vendor/bootstrap/css/bootstrap.min.css"
