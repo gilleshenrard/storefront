@@ -47,7 +47,7 @@
 
 		<?php include 'views/skills.php';?>
 		
-		<?php include 'views/experience.php';?>
+		<?php include 'controllers/experience.php';?>
 	
 		<?php include 'views/menu-header-footer/footer.php';?>
 	
