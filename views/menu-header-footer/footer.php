@@ -19,9 +19,9 @@
     					</a>
 					</div>
 					<div class="col-lg-3 mr-auto text-center">
-    					<a href="mailto:mail@gilleshenrard.com">
+    					<a href="mailto:contact@gilleshenrard.com">
     						<i class="fa fa-envelope-o fa-3x sr-contact"></i>
-    						<p>mail@gilleshenrard.com</p>
+    						<p>contact@gilleshenrard.com</p>
     					</a>
 					</div>
 					<div class="col-lg-3 ml-auto text-center">
