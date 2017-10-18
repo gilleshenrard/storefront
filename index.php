@@ -30,7 +30,7 @@
 			rel="stylesheet">
 		
 		<!-- Custom styles for this template -->
-		<link href="views/css/creative.min.css" rel="stylesheet">
+		<link href="views/css/creative.css" rel="stylesheet">
 		<link href="views/css/timeline.css" rel="stylesheet" />
 		<link href="views/css/custom.css" rel="stylesheet" />
 	
@@ -63,7 +63,7 @@
 		<script src="views/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 	
 		<!-- Custom scripts for this template -->
-		<script src="views/js/creative.min.js"></script>
+		<script src="views/js/creative.js"></script>
 	
 	</body>
 
