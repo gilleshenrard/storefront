@@ -32,6 +32,7 @@
 		<!-- Custom styles for this template -->
 		<link href="views/css/creative.min.css" rel="stylesheet">
 		<link href="views/css/timeline.css" rel="stylesheet" />
+		<link href="views/css/custom.css" rel="stylesheet" />
 	
 	</head>
 	

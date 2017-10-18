@@ -1,0 +1,12 @@
+#experience {
+	padding: 0;
+}
+
+#experience > .container-fluid {
+	background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../img/road.jpg') no-repeat fixed center;
+}
+
+#experience h2{
+	margin-top: 50px;
+	padding-top: 50px;
+}
