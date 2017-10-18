@@ -31,6 +31,8 @@
 		
 		<!-- Custom styles for this template -->
 		<link href="views/css/creative.css" rel="stylesheet">
+		<link href="views/css/home.css" rel="stylesheet" />
+		<link href="views/css/interests.css" rel="stylesheet" />
 		<link href="views/css/timeline.css" rel="stylesheet" />
 		<link href="views/css/custom.css" rel="stylesheet" />
 	
@@ -38,19 +40,17 @@
 	
 	<body id="page-top">
 	
-		<?php include "views/menu-header-footer/menu.php";?>
-		
-		<?php include 'views/menu-header-footer/header.php';?>
+		<?php include "controllers/home.php";?>
 	
-		<?php include 'views/about.php';?>
+		<?php include 'controllers/about.php';?>
 	
-		<?php include 'views/interests.php';?>
+		<?php include 'controllers/interests.php';?>
 
-		<?php include 'views/skills.php';?>
+		<?php include 'controllers/skills.php';?>
 		
 		<?php include 'controllers/experience.php';?>
 	
-		<?php include 'views/menu-header-footer/footer.php';?>
+		<?php include 'controllers/contact.php';?>
 	
 		<!-- Bootstrap core JavaScript -->
 		<script src="views/vendor/jquery/jquery.min.js"></script>
