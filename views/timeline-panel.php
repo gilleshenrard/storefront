@@ -28,7 +28,7 @@
         								        echo "<p>Technologies used</p>";
         								        echo "<ul>";
         								        foreach ($info['technologies'] as $tech){
-        								            echo "<li>".$tech."</li>";
+        								            echo "<li><small>".$tech."</small></li>";
         								        }
         								        echo "</ul>";
         								    }
