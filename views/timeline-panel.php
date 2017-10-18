@@ -1,4 +1,4 @@
-        						<div class="timeline-badge" style="background-image: url('img/logo/<?php echo $company;?>.png')">
+        						<div class="timeline-badge" style="background: url('views/img/logo/<?php echo $company;?>.png') no-repeat #fff center center; background-size: contain">
         							<!--i><img src="views/img/logo/bvd.PNG" class="img-fluid img-circle" /></i-->
         						</div>
         						<div class="timeline-panel">
@@ -17,7 +17,7 @@
         							<div class="timeline-body">
         								<p><?php echo $info['description'];?></p>
         								<?php if (isset($info['responsibilities']) or isset($info['technologies'])){
-        								    echo "<i class='fa fa-2x fa-chevron-circle-down text-primary sr-icons' data-toggle='collapse' data-target='#".$company."'></i>
+        								    echo "<i class='fa fa-2x fa-chevron-circle-down text-primary sr-icons' id='btn-".$company."' data-toggle='collapse' data-target='#".$company."'></i>
                                                   <div class='collapse' id='".$company."'>";
         								    
         								    if (isset($info['responsibilities'])){
