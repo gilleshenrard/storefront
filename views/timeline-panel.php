@@ -13,7 +13,7 @@
         								</p>
         							</div>
         							<div class="timeline-body">
-        								<?php if (isset($info['responsibilities']) or isset($info['technologies'])){
+        								<?php if (isset($info['responsibilities']) or isset($info['technologies']) or isset($info['description'])){
         								    echo "<i class='fa fa-2x fa-plus-circle text-primary sr-icons' id='btn-".$company."' data-toggle='collapse' data-target='#".$company."'></i>
                                                   <div class='collapse' id='".$company."'>";
         								    
