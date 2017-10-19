@@ -19,6 +19,8 @@ $experiences = [
             'Keepass'
         ]
     ],
+    
+    
     'curia' => [
         'job' => 'Service Desk Operator',
         'company' => "Court of Justice of the European Union",
@@ -33,9 +35,11 @@ $experiences = [
             'Microsoft Powershell'
         ]
     ],
+    
+    
     'catella' => [
         'job' => 'Service Desk Operator',
-        'company' => "Catella",
+        'company' => "Catella Bank",
         'period' => "Jun 2015 - Oct 2015",
         'location' => "Capellen, Luxembourg",
         'description' => "Service desk agent at Catella Bank (private investments bank)
@@ -47,10 +51,9 @@ $experiences = [
                                             - Propose hardware oriented support, such as placing server blades, cabling, conference rooms setup, ...",
         'technologies' => [
             'Microsoft Active Directory',
-            'Microsoft Application server',
             'Microsoft File server',
             'Sysprep / Windows ADK',
-            'Citrix (XenDesktop, XenServer)',
+            'Citrix (XenDesktop, XenServer, XenApp)',
             'Blackshield',
             'IBM Notes/Domino and Admin',
             'Jira',
@@ -59,6 +62,8 @@ $experiences = [
             'Eset Nod32 server'
         ]
     ],
+    
+    
     'adidas' => [
         'job' => 'Helpdesk Support',
         'company' => "Adidas",
