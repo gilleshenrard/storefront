@@ -13,12 +13,14 @@
         										<?php echo $info['location'];?></small>
         								</p>
         							</div>
-    								<hr class="primary" />
         							<div class="timeline-body">
-        								<p><?php echo $info['description'];?></p>
         								<?php if (isset($info['responsibilities']) or isset($info['technologies'])){
-        								    echo "<i class='fa fa-2x fa-chevron-circle-down text-primary sr-icons' id='btn-".$company."' data-toggle='collapse' data-target='#".$company."'></i>
+        								    echo "<i class='fa fa-2x fa-plus-circle text-primary sr-icons' id='btn-".$company."' data-toggle='collapse' data-target='#".$company."'></i>
                                                   <div class='collapse' id='".$company."'>";
+        								    
+        								    if (isset($info['description'])){
+        								        echo "<p>".$info['description']."</p>";
+        								    }
         								    
         								    if (isset($info['responsibilities'])){
         								        echo "<p>Responsibilities :<br/>".$info['responsibilities']."</p>";
