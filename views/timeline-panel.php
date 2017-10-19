@@ -1,5 +1,4 @@
         						<div class="timeline-badge" style="background: url('views/img/logo/<?php echo $company;?>.png') no-repeat #fff center center; background-size: contain">
-        							<!--i><img src="views/img/logo/bvd.PNG" class="img-fluid img-circle" /></i-->
         						</div>
         						<div class="timeline-panel">
         							<div class="timeline-heading">
