@@ -35,6 +35,7 @@
 		<link href="views/css/interests.css" rel="stylesheet" />
 		<link href="views/css/timeline.css" rel="stylesheet" />
 		<link href="views/css/experience.css" rel="stylesheet" />
+		<link href="views/css/skills.css" rel="stylesheet" />
 	
 	</head>
 	

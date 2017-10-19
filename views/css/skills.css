@@ -1,0 +1,78 @@
+#skills > .container {
+	margin-bottom: 20px;
+}
+
+.bargraph {
+    list-style: none;
+    padding-top: 20px;
+    width:100%;
+}
+
+ul.bargraph li {
+    height: 35px;
+    font-style: italic;
+    font-weight:bolder;
+    font-size: 14px;
+    line-height: 35px;
+    padding: 0px 20px;
+    margin-bottom: 5px;
+    border-radius: 300px;
+}
+
+ul.bargraph li.graph-beg-l {
+	width:12.5%;
+}
+
+ul.bargraph li.graph-beg-h {
+	width:25%;
+}
+
+ul.bargraph li.graph-inter-l {
+	width:37.5%;
+}
+
+ul.bargraph li.graph-inter-h {
+	width:50%;
+}
+
+ul.bargraph li.graph-pro-l {
+	width:62.5%;
+}
+
+ul.bargraph li.graph-pro-h {
+	width:75%;
+}
+
+ul.bargraph li.graph-adv-l {
+	width:87.5%;
+}
+
+ul.bargraph li.graph-adv-h {
+	width:100%;
+}
+
+div#prog-lang i{
+	padding-top: 50px;
+	transition: width 2s;
+}
+
+div#prog-lang ul {
+	padding-left: 20px;
+	padding-right: 0;
+	animation: spread 1s linear;
+}
+
+div#os i {
+	padding-top: 50px;
+	transition: width 2s;
+}
+
+div#os li {
+	line-height: 40px;
+	height: 40px;
+}
+
+@keyframes spread {
+	from {width: 0%;}
+	to {width: 100%;}
+}
