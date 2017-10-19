@@ -8,7 +8,7 @@
         									<small class="text-muted"><i class="fa fa-calendar-o"></i>
         										<?php echo $info['period'];?></small>
         									<br/>
-        									<small class="text-muted"><i class="fa fa-compass"></i>
+        									<small class="text-muted"><i class="fa fa-map-o"></i>
         										<?php echo $info['location'];?></small>
         									<br/>
         									<small class="text-muted"><i class="fa fa-comments-o"></i>
