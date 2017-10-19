@@ -34,7 +34,7 @@
 		<link href="views/css/home.css" rel="stylesheet" />
 		<link href="views/css/interests.css" rel="stylesheet" />
 		<link href="views/css/timeline.css" rel="stylesheet" />
-		<link href="views/css/custom.css" rel="stylesheet" />
+		<link href="views/css/experience.css" rel="stylesheet" />
 	
 	</head>
 	
