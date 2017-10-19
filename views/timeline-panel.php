@@ -10,6 +10,11 @@
         									<br/>
         									<small class="text-muted"><i class="fa fa-compass"></i>
         										<?php echo $info['location'];?></small>
+        									<br/>
+        									<small class="text-muted"><i class="fa fa-comments-o"></i>
+        										<?php foreach ($info['languages'] as $lang){
+        										    echo $lang."  ";
+        										}?></small>
         								</p>
         							</div>
         							<div class="timeline-body">
@@ -22,10 +27,17 @@
         								    }
         								    
         								    if (isset($info['responsibilities'])){
-        								        echo "<p>Responsibilities :<br/>".$info['responsibilities']."</p>";
+        								        echo "<hr class='primary'>";
+        								        echo "<p>Responsibilities</p>";
+        										echo "<ul>";
+        										foreach ($info['responsibilities'] as $resp){
+        										    echo "<li><small>".$resp."</small></li>";
+        										}
+        								        echo "</ul>";
         								    }
         								    
         								    if (isset($info['technologies'])){
+        								        echo "<hr class='primary'>";
         								        echo "<p>Technologies used</p>";
         								        echo "<ul>";
         								        foreach ($info['technologies'] as $tech){
