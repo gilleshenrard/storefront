@@ -65,7 +65,7 @@
 		<script src="views/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 	
 		<!-- Custom scripts for this template -->
-		<script src="views/js/creative.js"></script>
+		<script src="views/js/global.js"></script>
 	
 	</body>
 
