@@ -27,6 +27,7 @@
 		<link href="views/css/timeline.css" rel="stylesheet" type="text/css" />
 		<link href="views/css/experience.css" rel="stylesheet" type="text/css" />
 		<link href="views/css/skills.css" rel="stylesheet" type="text/css" />
+		<link href="views/css/contact.css" rel="stylesheet" type="text/css" />
 	
 	</head>
 	

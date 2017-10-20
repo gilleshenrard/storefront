@@ -37,5 +37,24 @@
     					</a>
 					</div>
 				</div>
+				<div class="row">
+					<div class="col-lg-6 col-md-10 col-sm-12">
+    					<form  method="post" action="/" autocomplete="on">
+    						<div class="form-group has-feedback" id="group-email">
+    							<label for="input-email" class="form-label">Email</label>
+    							<input type="text" id="input-email" name="email" class="form-control" placeholder="Your email address" autocomplete="email" required="required" />
+    						</div>
+    						<div class="form-group has-feedback" id="group-subject">
+    							<label for="input-subject" class="form-label">Subject</label>
+    							<input type="text" id="input-subject" name="subject" class="form-control" placeholder="The subject" required="required" />
+    						</div>
+    						<div class="form-group has-feedback" id="group-msg">
+    							<label for="input-msg" class="form-label">Message</label>
+    							<textarea id="input-msg" name="msg" class="form-control" rows="10" placeholder="Type your message here" required="required"></textarea>
+    						</div>
+    						<button type="submit" class="btn btn-primary">Submit</button>
+    					</form>
+					</div>
+				</div>
 			</div>
 		</section>
