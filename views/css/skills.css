@@ -1,10 +1,4 @@
 /*
-*	Skills
-*/
-#skills>.container {
-	margin-bottom: 20px;}
-
-/*
 *	Bar graph
 */
 .bargraph {
@@ -47,24 +41,18 @@ ul.bargraph li {
 		width: 100%;}
 
 /*
-*	Section about the programming languages
+*	Headers
 */
-div#prog-lang i {
+.skills-header {
 	padding-top: 50px;
 	transition: width 2s;}
 
-div#prog-lang ul {
-	padding-left: 20px;
-	padding-right: 0;
+.spread {
 	animation: spread 1s linear;}
 
 /*
 *	Section about the Operating systems
 */
-div#os i {
-	padding-top: 50px;
-	transition: width 2s;}
-
 div#os li {
 	line-height: 40px;
 	height: 40px;}
