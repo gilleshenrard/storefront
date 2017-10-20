@@ -37,7 +37,7 @@
 	});
 
 	// Scroll reveal calls
-	window.sr = ScrollReveal();
+	window.sr = ScrollReveal({ delayType: 'onload' });
 	sr.reveal('.sr-icons', {
 		duration : 600,
 		scale : 0.3,
@@ -52,7 +52,23 @@
 		scale : 0.3,
 		distance : '0px'
 	}, 300);
-
+	sr.reveal('.sr-icon', {
+		duration : 300,
+		delay : 700
+	});
+	sr.reveal('.sr-panel-left',{
+		origin: 'right',
+		duration : 400,
+		distance : '600px',
+		delay : 200
+	});
+	sr.reveal('.sr-panel-right',{
+		origin: 'left',
+		duration : 400,
+		distance : '600px',
+		delay : 200
+	});
+/*
 	// Magnific popup calls
 	$('.popup-gallery').magnificPopup({
 		delegate : 'a',
@@ -68,5 +84,5 @@
 			tError : '<a href="%url%">The image #%curr%</a> could not be loaded.'
 		}
 	});
-
+*/
 })(jQuery); // End of use strict

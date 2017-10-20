@@ -7,9 +7,9 @@
         				<ul class="timeline">
         					<?php foreach ($experiences as $company => $info){
         					    if ($inverted)
-        					       echo "<li class='timeline-inverted'>";
+        					       echo "<li class='timeline-inverted  sr-panel-left'>";
         					    else
-        					        echo "<li>";
+        					        echo "<li class='sr-panel-right'>";
         					    
         					    include 'views/timeline-panel.php';
         					    
