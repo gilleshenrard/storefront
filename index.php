@@ -17,7 +17,7 @@
 		<link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css' />
 		
 		<!-- Plugin CSS -->
-		<link href="views/vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css" />
+		<!--link href="views/vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css" /-->
 		
 		<!-- Custom styles for this template -->
 		<link href="views/css/global.css" rel="stylesheet" type="text/css" />
@@ -53,7 +53,7 @@
 		<!-- Plugin JavaScript -->
 		<script src="views/vendor/jquery-easing/jquery.easing.min.js" type="application/javascript"></script>
 		<script src="views/vendor/scrollreveal/scrollreveal.min.js" type="application/javascript"></script>
-		<script src="views/vendor/magnific-popup/jquery.magnific-popup.min.js" type="application/javascript"></script>
+		<!--script src="views/vendor/magnific-popup/jquery.magnific-popup.min.js" type="application/javascript"></script-->
 	
 		<!-- Custom scripts for this template -->
 		<script src="views/js/global.js" type="application/javascript"></script>
