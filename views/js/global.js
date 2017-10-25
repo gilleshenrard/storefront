@@ -43,7 +43,7 @@
 		}
 
 		//	Spread programmation OS bargraph
-		if($("#os").offset().top < inScreenOffset){
+		if($("#os").offset().top < screenBottomOffset){
 			$("#os > div > ul").addClass("spread");
 		}
 	});
