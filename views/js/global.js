@@ -36,9 +36,9 @@
 			$("#mainNav").removeClass("navbar-shrink");
 		}
 
-		var inScreenOffset = $(window).scrollTop() + $(window).height();
+		var screenBottomOffset = $(window).scrollTop() + $(window).height();
 		//	Spread programmation languages bargraph
-		if($("#prog-lang").offset().top < inScreenOffset){
+		if($("#prog-lang").offset().top < screenBottomOffset){
 			$("#prog-lang > div > ul").addClass("spread");
 		}
 
