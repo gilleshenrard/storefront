@@ -16,6 +16,7 @@
         					    echo "</li>";
         					    $inverted = !$inverted;
                             }?>
+                            <li><div class="timeline-badge bg-light" id="timeline-begin"><i class="fa fa-info"></i></div></li>
         				</ul>
         			</div>
 				</div>
