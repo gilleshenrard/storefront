@@ -1,5 +1,5 @@
 		<section class="bg-primary" id="skills">
-			<div class="container">
+			<div class="container" id="skills_header">
 				<div class="row">
 					<div class="col-lg-8 mx-auto text-center">
 						<h2 class="text-white">What I can do</h2>
@@ -14,7 +14,7 @@
         				<!--h3 class="text-center">Programming languages</h3-->
         			</div>
             		<div class="col-lg-6 col-md-10 col-sm-4 mx-auto">
-            			<ul class="bargraph text-left spread">
+            			<ul class="bargraph text-left">
             				<li class="graph-inter-h bg-light text-primary">Python</li>
             				<li class="graph-pro-l bg-light text-primary">Django</li>
             				<li class="graph-pro-l bg-light text-primary">C++</li>
@@ -33,10 +33,10 @@
             		</div>
             		<div class="col-lg-6 col-md-10 col-sm-4 mx-auto">
             			<ul class="bargraph text-right">
-            				<li class="graph-pro-l bg-light text-primary">Windows</li>
-            				<li class="graph-pro-l bg-light text-primary">Linux</li>
-            				<li class="graph-inter-l bg-light text-primary">Raspberry Pi</li>
-            				<li class="graph-inter-h bg-light text-primary">Arduino</li>
+            				<li class="graph-pro-l bg-light text-primary float-right float-sm-right">Windows</li>
+            				<li class="graph-pro-l bg-light text-primary float-right float-sm-right">Linux</li>
+            				<li class="graph-inter-l bg-light text-primary float-right float-sm-right">Raspberry Pi</li>
+            				<li class="graph-inter-h bg-light text-primary float-right float-sm-right">Arduino</li>
             			</ul>
                     </div>
         			<div class="col-lg-2 col-md-2 col-sm-4 mx-auto text-light text-center">

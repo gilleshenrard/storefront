@@ -34,6 +34,14 @@
 		} else {
 			$("#mainNav").removeClass("navbar-shrink");
 		}
+
+		if($("#prog-lang").offset().top < $(window).scrollTop() + $(window).height()){
+			$("#prog-lang > div > ul").addClass("spread");
+		}
+
+		if($("#os").offset().top < $(window).scrollTop() + $(window).height()){
+			$("#os > div > ul").addClass("spread");
+		}
 	});
 
 	// Scroll reveal calls
