@@ -27,19 +27,23 @@
 		offset : 48
 	});
 
-	// Collapse the navbar when page is scrolled
+	// Animations when page is scrolled
 	$(window).scroll(function() {
+		//	Collapse the navbar 
 		if ($("#mainNav").offset().top > 100) {
 			$("#mainNav").addClass("navbar-shrink");
 		} else {
 			$("#mainNav").removeClass("navbar-shrink");
 		}
 
-		if($("#prog-lang").offset().top < $(window).scrollTop() + $(window).height()){
+		var inScreenOffset = $(window).scrollTop() + $(window).height();
+		//	Spread programmation languages bargraph
+		if($("#prog-lang").offset().top < inScreenOffset){
 			$("#prog-lang > div > ul").addClass("spread");
 		}
 
-		if($("#os").offset().top < $(window).scrollTop() + $(window).height()){
+		//	Spread programmation OS bargraph
+		if($("#os").offset().top < inScreenOffset){
 			$("#os > div > ul").addClass("spread");
 		}
 	});
