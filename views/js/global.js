@@ -56,18 +56,6 @@
 		duration : 300,
 		delay : 700
 	});
-	sr.reveal('.sr-panel-left',{
-		origin: 'right',
-		duration : 400,
-		distance : '600px',
-		delay : 200
-	});
-	sr.reveal('.sr-panel-right',{
-		origin: 'left',
-		duration : 400,
-		distance : '600px',
-		delay : 200
-	});
 /*
 	// Magnific popup calls
 	$('.popup-gallery').magnificPopup({
