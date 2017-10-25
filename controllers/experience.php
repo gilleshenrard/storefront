@@ -15,9 +15,7 @@ $experiences = [
             'Microsoft File Server',
             'Microsoft Visual Studio 2015',
             'Microsoft Sourcesafe',
-            'Microsoft Team Foundation Server',
-            'Oracle Virtualbox',
-            'Keepass'
+            'Microsoft Team Foundation Server'
         ]
     ],
     
