@@ -8,7 +8,7 @@
 										</div>
 									</a>
 								</div>
-        						<div class="timeline-panel">
+        						<div class="timeline-panel sr-icons">
         							<div class="timeline-heading text-light">
         								<h4 class="timeline-title"><?php echo $info['job'];?></h4>
         								<h5><strong><?php echo $info['company'];?></strong><?php if (isset($info['contractor'])) echo " - ".$info['contractor'];?></h5>
@@ -25,38 +25,7 @@
         										}?></small>
         								</p>
         							</div>
-        							<!--div class="timeline-body text-light text-center">
-        								<!--?php if (isset($info['responsibilities']) or isset($info['technologies']) or isset($info['description'])){
-        								    echo "<i class='fa fa-2x fa-plus-circle text-light sr-icons' id='btn-".$company."' data-toggle='collapse' data-target='#".$company."'></i>
-                                                  <div class='collapse' id='".$company."'>";
-        								    
-        								    if (isset($info['description'])){
-        								        echo "<p>".$info['description']."</p>";
-        								    }
-        								    
-        								    if (isset($info['responsibilities'])){
-        								        echo "<hr class='primary'>";
-        								        echo "<p>Responsibilities</p>";
-        										echo "<ul>";
-        										foreach ($info['responsibilities'] as $resp){
-        										    echo "<li><small>".$resp."</small></li>";
-        										}
-        								        echo "</ul>";
-        								    }
-        								    
-        								    if (isset($info['technologies'])){
-        								        echo "<hr class='light'>";
-        								        echo "<p>Technologies used</p>";
-        								        echo "<ul>";
-        								        foreach ($info['technologies'] as $tech){
-        								            echo "<li><small>".$tech."</small></li>";
-        								        }
-        								        echo "</ul>";
-        								    }
-        								    echo "</div>";
-        								}?>
-        							</div-->
-        						</div>
+						        </div>
 
 								<div class="portfolio-modal modal fade" id="modal<?php echo $company?>" tabindex="-1" role="dialog" aria-hidden="true">
 									<div class="modal-dialog">
