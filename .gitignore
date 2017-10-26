@@ -1,3 +1,7 @@
+# eclipse projects
 .buildpath
 .project
 .settings/
+
+# PHPStorm projects
+.idea/
