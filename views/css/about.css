@@ -1,15 +1,14 @@
-section#about {
-    padding-top: 0;}
+section#about{
+    padding: 0;
+}
 
-div#curcity-map {
-    background: url(https://maps.googleapis.com/maps/api/staticmap?key=AIzaSyBMGfYeDyC-blGyqgVFZDzkxvD5S1KM3_Q&center=Brussels&markers=size:mid|Brussels&size=3000x200&scale=2&zoom=6&type=terrain&style=feature:road|visibility:off) center no-repeat;
+div#car-item-location {
+    background: url(https://maps.googleapis.com/maps/api/staticmap?key=AIzaSyBMGfYeDyC-blGyqgVFZDzkxvD5S1KM3_Q&center=Brussels&markers=size:mid|Brussels&size=1920x1080&scale=2&zoom=6&type=terrain&style=feature:road|visibility:off) center no-repeat;
     background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    -webkit-background-size: cover;
-    height: 200px;
-    width: 100%;}
-
+    -webkit-background-size: cover;}
+/*
 section#about > div#about-header {
     background-color: white;
     border-style: groove;
@@ -18,11 +17,8 @@ section#about > div#about-header {
     position: relative;
     top: 20px;
     z-index: 99;}
-
-#about-slider{
-    top: -150px;}
-
+*/
 .carousel-item {
-    height: 100vh;
-    min-height: 300px;
+    padding: 100px 0;
+    min-height: 100vh;
 }
