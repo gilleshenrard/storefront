@@ -1,0 +1,14 @@
+section#about {
+    padding-top: 0;}
+
+div#curcity-map {
+    background: url(https://maps.googleapis.com/maps/api/staticmap?key=AIzaSyBMGfYeDyC-blGyqgVFZDzkxvD5S1KM3_Q&center=Brussels&markers=size:mid|Brussels&size=3000x200&scale=2&zoom=6&type=terrain&style=feature:road|visibility:off) center no-repeat;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    height: 200px;
+    width: 100%;}
+
+section#about > div.container {
+    margin-top: 100px;}
