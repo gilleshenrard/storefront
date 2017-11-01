@@ -23,6 +23,7 @@
 		<link href="views/css/global.css" rel="stylesheet" type="text/css" />
 		<link href="views/css/menu.css" rel="stylesheet" type="text/css" />
 		<link href="views/css/header.css" rel="stylesheet" type="text/css" />
+        <link href="views/css/about.css" rel="stylesheet" type="text/css" />
 		<link href="views/css/interests.css" rel="stylesheet" type="text/css" />
 		<link href="views/css/timeline.css" rel="stylesheet" type="text/css" />
 		<link href="views/css/portfolio.css" rel="stylesheet" type="text/css" />
@@ -37,12 +38,12 @@
 		<?php include "controllers/home.php";?>
 	
 		<?php include 'controllers/about.php';?>
-	
-		<?php include 'controllers/interests.php';?>
 
 		<?php include 'controllers/skills.php';?>
 		
 		<?php include 'controllers/experience.php';?>
+
+        <?php include 'controllers/interests.php';?>
 	
 		<?php include 'controllers/contact.php';?>
 	
