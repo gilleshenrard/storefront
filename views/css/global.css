@@ -203,4 +203,12 @@ section {
 		color: #34888c;
 		background-color: white;
 	}
-	
+
+/*
+*   Responsive
+*/
+@media ( min-width : 768px) {
+    section {
+        min-height: auto;
+        padding: 100px 0;}
+}
