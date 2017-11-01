@@ -26,7 +26,7 @@
 
                     <!-- Slide Two - Set the background image for this slide in the line below -->
                     <div class="carousel-item" id="car-item-interests">
-                        <?php include 'controllers/interests.php';?>
+                        <?php include 'controllers/hobbies.php';?>
                     </div>
 
                     <!-- Slide Three - Set the background image for this slide in the line below -->

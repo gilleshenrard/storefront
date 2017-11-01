@@ -24,7 +24,7 @@
 		<link href="views/css/menu.css" rel="stylesheet" type="text/css" />
 		<link href="views/css/header.css" rel="stylesheet" type="text/css" />
         <link href="views/css/about.css" rel="stylesheet" type="text/css" />
-		<link href="views/css/interests.css" rel="stylesheet" type="text/css" />
+		<link href="views/css/hobbies.css" rel="stylesheet" type="text/css" />
 		<link href="views/css/timeline.css" rel="stylesheet" type="text/css" />
 		<link href="views/css/portfolio.css" rel="stylesheet" type="text/css" />
 		<link href="views/css/experience.css" rel="stylesheet" type="text/css" />
