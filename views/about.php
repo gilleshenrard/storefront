@@ -1,4 +1,7 @@
 		<section class="bg-primary" id="about">
+            <div class="container" id="about-header">
+                <h2 class="section-heading">About me</h2>
+            </div>
             <div id="about-slider" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#about-slider" data-slide-to="0" class="active"></li>

@@ -10,8 +10,17 @@ div#curcity-map {
     height: 200px;
     width: 100%;}
 
-section#about > div.container {
-    margin-top: 100px;}
+section#about > div#about-header {
+    background-color: white;
+    border-style: groove;
+    width: 300px;
+    height: 150px;
+    position: relative;
+    top: 20px;
+    z-index: 99;}
+
+#about-slider{
+    top: -150px;}
 
 .carousel-item {
     height: 100vh;
