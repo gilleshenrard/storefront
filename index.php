@@ -42,8 +42,6 @@
 		<?php include 'controllers/skills.php';?>
 		
 		<?php include 'controllers/experience.php';?>
-
-        <?php include 'controllers/interests.php';?>
 	
 		<?php include 'controllers/contact.php';?>
 	

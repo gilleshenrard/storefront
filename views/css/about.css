@@ -12,3 +12,8 @@ div#curcity-map {
 
 section#about > div.container {
     margin-top: 100px;}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+}
