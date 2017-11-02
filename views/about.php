@@ -31,14 +31,22 @@
 
                     <!-- Slide Three - Set the background image for this slide in the line below -->
                     <div class="carousel-item" id="car-item-location">
+	                    <div class="row bg-light">
+		                    <div class="col-lg-4 col-md-8 col-sm-12 text-center">
+			                    <div class="interest-box">
+				                    <i class="fa fa-4x fa-comment-o"></i>
+				                    <h3>En - Fr</h3>
+			                    </div>
+		                    </div>
+	                    </div>
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#about-slider" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="fa fa-chevron-circle-left fa-4x" ></span>
                     <span class="sr-only">Previous</span>
                 </a>
                 <a class="carousel-control-next" href="#about-slider" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="fa fa-chevron-circle-right fa-4x" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
             </div>
