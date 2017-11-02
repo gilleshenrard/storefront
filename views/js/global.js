@@ -68,6 +68,10 @@
 		duration : 300,
 		delay : 700
 	});
+
+	$("#about-slider").carousel({
+		interval: false
+	});
 /*
 	// Magnific popup calls
 	$('.popup-gallery').magnificPopup({
