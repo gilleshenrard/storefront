@@ -2,6 +2,10 @@ section#about{
     padding: 0;
 }
 
+section#about p {
+    margin-top: 70px;
+}
+
 div#car-item-location {
     background: url(https://maps.googleapis.com/maps/api/staticmap?key=AIzaSyBMGfYeDyC-blGyqgVFZDzkxvD5S1KM3_Q&center=Brussels&markers=size:mid|Brussels&size=1920x1080&scale=2&zoom=6&type=terrain&style=feature:road|visibility:off) center no-repeat;
     background-size: cover;
@@ -20,5 +24,42 @@ section#about > div#about-header {
 */
 .carousel-item {
     padding: 100px 0;
-    min-height: 100vh;
+    height: 1024px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    color: #222222;
+    opacity: 1;
+}
+
+    .carousel-control-next:hover, .carousel-control-prev:hover {
+        color: #34888c;
+        opacity: 1;
+    }
+
+    .carousel-control-next:focus, .carousel-control-prev:focus {
+        color: #34888c;
+        opacity: 1;
+    }
+
+ol.carousel-indicators > li {
+    background-color: #222222;
+}
+
+    ol.carousel-indicators > li:hover {
+        background-color: #222222;
+    }
+
+    ol.carousel-indicators > li.active {
+        background-color: #34888c;
+    }
+
+div#car-item-location {
+    padding-top: 0;
+}
+
+@media (min-width : 768px) {
+    .carousel-item {
+        height: 100vh;
+    }
 }
