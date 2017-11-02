@@ -72,6 +72,11 @@
 	$("#about-slider").carousel({
 		interval: false
 	});
+
+	$.stellar({
+		horizontalScrolling: false,
+		verticalOffset: 150
+	});
 /*
 	// Magnific popup calls
 	$('.popup-gallery').magnificPopup({

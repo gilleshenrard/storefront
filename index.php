@@ -53,6 +53,7 @@
 		<!-- Plugin JavaScript -->
 		<script src="views/vendor/jquery-easing/jquery.easing.min.js" type="application/javascript"></script>
 		<script src="views/vendor/scrollreveal/scrollreveal.min.js" type="application/javascript"></script>
+		<script src="views/vendor/stellar/jquery.stellar.min.js" type="application/javascript"></script>
 		<!--script src="views/vendor/magnific-popup/jquery.magnific-popup.min.js" type="application/javascript"></script-->
 	
 		<!-- Custom scripts for this template -->

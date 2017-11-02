@@ -1,5 +1,5 @@
 		<section id="experience">
-			<div class="container-fluid">
+			<div class="container-fluid" data-stellar-background-ratio="0.5">
 				<div class="row">
 					<div class="col-lg-8 mx-auto text-center">
 						<h2 class="section-heading text-light">What I've done so far</h2>
