@@ -70,7 +70,7 @@
 	});
 
 	$("#about-slider").carousel({
-		interval: false
+		interval: 10000
 	});
 
 	$.stellar({
