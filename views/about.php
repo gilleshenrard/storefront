@@ -31,14 +31,14 @@
 
                     <!-- Slide Three - Set the background image for this slide in the line below -->
                     <div class="carousel-item" id="car-item-location">
-	                    <div class="row bg-light">
+	                    <!--div class="row bg-light">
 		                    <div class="col-lg-4 col-md-8 col-sm-12 text-center">
 			                    <div class="interest-box">
 				                    <i class="fa fa-4x fa-comment-o"></i>
 				                    <h3>En - Fr</h3>
 			                    </div>
 		                    </div>
-	                    </div>
+	                    </div-->
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#about-slider" role="button" data-slide="prev">
