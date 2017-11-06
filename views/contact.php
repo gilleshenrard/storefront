@@ -10,7 +10,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-lg-3 ml-auto text-center">
+					<div class="col-lg-4 ml-auto text-center">
     					<a type="tel" href="tel:+32484274862">
     						<i class="fa fa-phone fa-3x sr-contact"></i>
     						<p>
@@ -18,22 +18,16 @@
     						</p>
     					</a>
 					</div>
-					<div class="col-lg-3 mr-auto text-center">
+					<div class="col-lg-4 mr-auto text-center">
     					<a href="mailto:contact@gilleshenrard.com">
     						<i class="fa fa-envelope-o fa-3x sr-contact"></i>
     						<p>contact@gilleshenrard.com</p>
     					</a>
 					</div>
-					<div class="col-lg-3 ml-auto text-center">
+					<div class="col-lg-4 ml-auto text-center">
     					<a type="text/html" href="https://www.linkedin.com/in/gilles-henrard-87b57979">
     						<i class="fa fa-linkedin fa-3x sr-contact"></i>
     						<p>LinkedIn</p>
-    					</a>
-					</div>
-					<div class="col-lg-3 ml-auto text-center">
-    					<a type="text/html" href="https://github.com/gilleshenrard">
-    						<i class="fa fa-github fa-3x sr-contact"></i>
-    						<p>GitHub</p>
     					</a>
 					</div>
 				</div>
