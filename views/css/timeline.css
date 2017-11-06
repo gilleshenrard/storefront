@@ -1,3 +1,6 @@
+/*
+*   Timeline
+*/
 .timeline {
 	position: relative;
 	padding: 0;
@@ -15,6 +18,9 @@
 		content: '';
 		background-color: #e9ecef;}
 
+	/*
+	*   Timeline elements
+	*/
 	.timeline>li {
 		position: relative;
 		min-height: 50px;
@@ -29,7 +35,10 @@
 		
 		.timeline>li:last-child {
 			margin-bottom: 0;}
-		
+
+	/*
+	*   Panels
+	*/
 	.timeline>li .timeline-panel {
 		position: relative;
 		float: right;
@@ -48,62 +57,226 @@
 			left: -14px;
 			border-right-width: 14px;
 			border-left-width: 0;}
-		
-		.timeline>li .timeline-image {
-			position: absolute;
-			left: 0;
-			width: 80px;
-			height: 80px;
-			margin-left: 0;
-			border: 7px solid #e9ecef;
-			border-radius: 100%;}
-		
-			.timeline>li .timeline-image h4 {
-				font-size: 10px;
-				line-height: 14px;
-				margin-top: 12px;}
-		
-		.timeline>li.timeline-inverted>.timeline-panel {
-			float: right;
-			padding: 0 20px 0 100px;
-			text-align: left;}
-		
-			.timeline>li.timeline-inverted>.timeline-panel:before {
-				right: auto;
-				left: -15px;
-				border-right-width: 15px;
-				border-left-width: 0;}
-			
-			.timeline>li.timeline-inverted>.timeline-panel:after {
-				right: auto;
-				left: -14px;
-				border-right-width: 14px;
-				border-left-width: 0;}
-		
+
 		.timeline>li>.timeline-panel>.timeline-body>i {
 			float: right;}
-		
-			.timeline>li.timeline-inverted>.timeline-panel>.timeline-body>i {
-				float: left;}
-	
+
+	/*
+	*   Inverted panels
+	*/
+	.timeline>li.timeline-inverted>.timeline-panel {
+		float: right;
+		padding: 0 20px 0 100px;
+		text-align: left;}
+
+		.timeline>li.timeline-inverted>.timeline-panel:before {
+			right: auto;
+			left: -15px;
+			border-right-width: 15px;
+			border-left-width: 0;}
+
+		.timeline>li.timeline-inverted>.timeline-panel:after {
+			right: auto;
+			left: -14px;
+			border-right-width: 14px;
+			border-left-width: 0;}
+
+		.timeline>li.timeline-inverted>.timeline-panel>.timeline-body>i {
+			float: left;}
+
+	/*
+	*   Images
+	*/
+	.timeline>li .timeline-image {
+		position: absolute;
+		left: 0;
+		width: 80px;
+		height: 80px;
+		margin-left: 0;
+		border: 7px solid #e9ecef;
+		border-radius: 100%;}
+
+		.timeline>li .timeline-image h4 {
+			font-size: 10px;
+			line-height: 14px;
+			margin-top: 12px;}
+
+	/*
+	*   Heading
+	*/
 	.timeline .timeline-heading h4 {
 		margin-top: 0;
 		color: inherit;}
 	
-	.timeline .timeline-heading h4.subheading {
-		text-transform: none;}
-	
+		.timeline .timeline-heading h4.subheading {
+			text-transform: none;}
+
+	/*
+	*   Body
+	*/
 	.timeline .timeline-body>ul, .timeline .timeline-body>p {
 		margin-bottom: 0;}
 
+/*
+*   Timeline hoverable
+*/
+div.portfolio-hover {
+	border-radius: 50%;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	transition: all ease 0.5s;
+	opacity: 0;
+	background: rgba(52, 136, 140, 0.9);}
+
+	div.portfolio-hover:hover {
+		opacity: 1;}
+
+	div.portfolio-hover div.portfolio-hover-content{
+		font-size: 20px;
+		color: white;
+		height: 100%;}
+
+	div.portfolio-hover div.portfolio-hover-content i.fa {
+		position: relative;
+		top: 25%;}
+
+	/*
+	*   Links
+	*/
+	a.portfolio-link {
+		display: block;
+		cursor: pointer;}
+
+/*
+
+*   Modal-dialog
+*/
+.portfolio-modal .modal-dialog {
+	max-width: none;
+	height: 100%;
+	margin: 0;}
+
+	/*
+	*   Modal-content
+	*/
+	.portfolio-modal .modal-content {
+		min-height: 100%;
+		padding: 100px 0;
+		text-align: center;
+		border: none;
+		border-radius: 0;
+		background-clip: border-box;
+		-webkit-box-shadow: none;
+		box-shadow: none;}
+
+	/*
+	*   Text
+	*/
+	.portfolio-modal .modal-content h2 {
+		font-size: 3em;
+		margin-bottom: 15px;}
+
+	.portfolio-modal .modal-content p {
+		margin-bottom: 30px;}
+
+	.portfolio-modal .modal-content p.item-intro {
+		font-size: 16px;
+		font-style: italic;
+		margin: 20px 0 30px;
+		font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;}
+
+	/*
+	*   Lists
+	*/
+	.portfolio-modal .modal-content ul.list-inline {
+		margin-top: 0;
+		margin-bottom: 30px;}
+
+	/*
+	*   Images
+	*/
+	.portfolio-modal .modal-content img {
+		margin-bottom: 30px;}
+
+	/*
+	*   Buttons
+	*/
+	.portfolio-modal .modal-content button {
+		cursor: pointer;}
+
+	/*
+	*   Modal close upper button
+	*/
+	.portfolio-modal .close-modal {
+		position: absolute;
+		top: 25px;
+		right: 25px;
+		width: 75px;
+		height: 75px;
+		cursor: pointer;
+		background-color: transparent;
+		visibility: hidden;}
+
+	.portfolio-modal .close-modal:hover {
+		opacity: 0.3;}
+
+	.portfolio-modal .close-modal .lr {
+		/* Safari and Chrome */
+		z-index: 1051;
+		width: 1px;
+		height: 75px;
+		margin-left: 35px;
+		/* IE 9 */
+		-webkit-transform: rotate(45deg);
+		-ms-transform: rotate(45deg);
+		transform: rotate(45deg);
+		background-color: #212529;}
+
+	.portfolio-modal .close-modal .lr .rl {
+		/* Safari and Chrome */
+		z-index: 1052;
+		width: 1px;
+		height: 75px;
+		/* IE 9 */
+		-webkit-transform: rotate(90deg);
+		-ms-transform: rotate(90deg);
+		transform: rotate(90deg);
+		background-color: #212529;}
+
+	/*
+	*   Backdrop
+	*/
+	.portfolio-modal .modal-backdrop {
+		display: none;
+		opacity: 0;}
+
+	/*
+	*   Modal close bottom button
+	*/
+	div.modal-body > button.btn {
+		margin-top: 20px;
+	}
+
+/*
+*   Responsive (middle)
+*/
 @media ( min-width : 768px) {
 	.timeline:before {
 		left: 50%;}
-		
+
+	/*
+	*   Elements
+	*/
 	.timeline>li {
 		min-height: 100px;
 		margin-bottom: 100px;}
-		
+
+		/*
+		*   Panels
+		*/
 		.timeline>li .timeline-panel {
 			float: left;
 			width: 41%;
@@ -115,6 +288,9 @@
 			padding: 0 30px 20px 20px;
 			text-align: left;}
 
+		/*
+		*   Images
+		*/
 		.timeline>li .timeline-image {
 			left: 50%;
 			width: 100px;
@@ -125,18 +301,34 @@
 				font-size: 13px;
 				line-height: 18px;
 				margin-top: 16px;}
+
+	/*
+	*   Timeline hoverable
+	*/
+	#portfolio .portfolio-item {
+		margin: 0 0 30px;
+	}
 }
 
+/*
+*   Responsive (large)
+*/
 @media ( min-width : 992px) {
 	.timeline>li {
 		min-height: 150px;}
-		
+
+		/*
+		*   Panels
+		*/
 		.timeline>li .timeline-panel {
 			padding: 0 20px 20px;}
 			
 			.timeline>li.timeline-inverted>.timeline-panel {
 				padding: 0 20px 20px;}
-			
+
+		/*
+		*   Images
+		*/
 		.timeline>li .timeline-image {
 			width: 150px;
 			height: 150px;
@@ -148,16 +340,25 @@
 				margin-top: 30px;}
 }
 
+/*
+*   Responsive (extra-large)
+*/
 @media ( min-width : 1200px) {
 	.timeline>li {
 		min-height: 170px;}
-		
+
+		/*
+		*   Panels
+		*/
 		.timeline>li .timeline-panel {
 			padding: 0 20px 20px 100px;}
 			
 			.timeline>li.timeline-inverted>.timeline-panel {
 				padding: 0 100px 20px 20px;}
-			
+
+		/*
+		*   Images
+		*/
 		.timeline>li .timeline-image {
 			width: 170px;
 			height: 170px;
