@@ -9,6 +9,9 @@
 	-moz-transition: all 0.2s;
 	transition: all 0.2s;}
 
+	/*
+	*   Brand
+	*/
 	#mainNav .navbar-brand {
 		font-weight: 700;
 		text-transform: uppercase;
@@ -17,13 +20,16 @@
 	
 		#mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
 			color: #34888c;}
-	
+
 	#mainNav .navbar-toggle {
 		font-size: 12px;
 		font-weight: 700;
 		text-transform: uppercase;
 		color: #222222;}
-	
+
+	/*
+	*   Navbar links
+	*/
 	#mainNav .navbar-nav>li.nav-item>a.nav-link:focus, #mainNav .navbar-nav>li.nav-item>a.nav-link{
 		font-size: 13px;
 		font-weight: 700;
@@ -47,27 +53,42 @@
 	#mainNav {
 		border-color: rgba(255, 255, 255, 0.3);
 		background-color: transparent;}
-		
+
+	/*
+	*   Brand
+	*/
 	#mainNav .navbar-brand {
 		color: rgba(255, 255, 255, 0.7);}
 		
 		#mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
 			color: white;}
-		
+
+	/*
+	*   Links
+	*/
 	#mainNav .navbar-nav>li.nav-item>a.nav-link, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus{
 		color: rgba(255, 255, 255, 0.7);}
 	
 		#mainNav .navbar-nav>li.nav-item>a.nav-link:hover, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover{
 			color: white;}
-	
+
+	/*
+	*   onShrink
+	*/
 	#mainNav.navbar-shrink {
 		border-color: rgba(34, 34, 34, 0.05);
 		background-color: white;}
-	
+
+		/*
+		*   Brand
+		*/
 		#mainNav.navbar-shrink .navbar-brand {
 			font-size: 16px;
 			color: #34888c;}
-		
+
+		/*
+		*   Links
+		*/
 		#mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover{
 			color: #34888c;}
 		
