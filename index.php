@@ -26,10 +26,8 @@
         <link href="views/css/about.css" rel="stylesheet" type="text/css" />
 		<link href="views/css/hobbies.css" rel="stylesheet" type="text/css" />
 		<link href="views/css/timeline.css" rel="stylesheet" type="text/css" />
-		<link href="views/css/portfolio.css" rel="stylesheet" type="text/css" />
 		<link href="views/css/experience.css" rel="stylesheet" type="text/css" />
 		<link href="views/css/skills.css" rel="stylesheet" type="text/css" />
-		<link href="views/css/contact.css" rel="stylesheet" type="text/css" />
 	
 	</head>
 	
@@ -39,7 +37,7 @@
 	
 		<?php include 'controllers/about.php';?>
 
-		<?php include 'controllers/skills.php';?>
+		<!--?php include 'controllers/skills.php';?-->
 		
 		<?php include 'controllers/experience.php';?>
 	
