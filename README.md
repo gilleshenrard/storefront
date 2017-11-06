@@ -4,7 +4,7 @@
 Status
 ------
 
-Current version : 0.9-beta
+Current version : 0.10
 
 ####Vendors
 - [Bootstrap](https://getbootstrap.com/) v4.0.0-beta
