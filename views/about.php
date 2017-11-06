@@ -6,8 +6,13 @@
                     <li data-target="#about-slider" data-slide-to="2"></li>
                 </ol>
                 <div class="carousel-inner bg-light" role="listbox">
-                    <!-- Slide One - Set the background image for this slide in the line below -->
-                    <div class="carousel-item active" id="car-item-about">
+	                <!-- Slide one - Hobbies description -->
+	                <div class="carousel-item active" id="car-item-interests">
+                        <?php include 'controllers/hobbies.php';?>
+	                </div>
+
+                    <!-- Slide two - Self presentation -->
+                    <div class="carousel-item" id="car-item-about">
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-12 text-center">
@@ -24,12 +29,7 @@
                         </div>
                     </div>
 
-                    <!-- Slide Two - Set the background image for this slide in the line below -->
-                    <div class="carousel-item" id="car-item-interests">
-                        <?php include 'controllers/hobbies.php';?>
-                    </div>
-
-                    <!-- Slide Three - Set the background image for this slide in the line below -->
+                    <!-- Slide Three - Localisation -->
                     <div class="carousel-item" id="car-item-location">
 	                    <!--div class="row bg-light">
 		                    <div class="col-lg-4 col-md-8 col-sm-12 text-center">
