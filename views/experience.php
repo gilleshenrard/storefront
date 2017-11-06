@@ -20,13 +20,6 @@
         					    echo "</li>";
         					    $inverted = !$inverted;
                             }?>
-    						<li class="timeline-inverted">
-    							<div class="timeline-image bg-light">
-    								<h4 class="text-primary">
-    									Be Part <br>Of Our <br>Story!
-    								</h4>
-    							</div>
-    						</li>
         				</ul>
         			</div>
 				</div>
