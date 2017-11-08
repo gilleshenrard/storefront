@@ -35,7 +35,7 @@
 		} else {
 			$("#mainNav").removeClass("navbar-shrink");
 		}
-
+/*
 		var screenBottomOffset = $(window).scrollTop() + $(window).height();
 		//	Spread programmation languages bargraph
 		if($("#prog-lang").offset().top < screenBottomOffset){
@@ -46,6 +46,7 @@
 		if($("#os").offset().top < screenBottomOffset){
 			$("#os > div > ul").addClass("spread");
 		}
+*/
 	});
 
 	// Scroll reveal calls
@@ -74,7 +75,6 @@
 	});
 
 	$.stellar({
-		horizontalScrolling: false,
-		verticalOffset: 150
+		horizontalScrolling: false
 	});
 })(jQuery); // End of use strict
