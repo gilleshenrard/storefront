@@ -9,7 +9,7 @@ header.masthead {
 	position: relative;
 	text-align: center;
 	color: white;
-	background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("../img/workshop.jpg") no-repeat center;
+	background: url("../img/workshop.jpg") no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
