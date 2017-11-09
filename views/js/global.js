@@ -74,7 +74,7 @@
 		interval: 10000
 	});
 
-	if(window.screen.width >= 1025) {
+	if(window.screen.width >= 1367) {
         $.stellar({
             horizontalScrolling: false
         });
