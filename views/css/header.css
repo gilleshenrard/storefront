@@ -34,12 +34,23 @@ header.masthead {
 	header.masthead .header-content .header-content-inner p {
 		font-size: 16px;
 		font-weight: 300;
-		margin-bottom: 50px;
 		color: rgba(255, 255, 255, 0.7);}
 
 /*
 *	Responsive
 */
+@media (min-height: 415px){
+	header.masthead .header-content {
+	top: 15%;
+	padding-left: 0;
+	padding-right: 0;}
+
+	header.masthead .header-content .header-content-inner {
+		background-color: rgba(88, 31, 43, 0.8);
+		padding: 20px 0 20px 0;
+	}
+}
+
 @media ( min-width : 768px) {
 	header.masthead {
 		height: 100%;
@@ -65,7 +76,10 @@ header.masthead {
 	header.masthead .header-content .header-content-inner {
 		max-width: 1000px;
 		margin-right: auto;
-		margin-left: auto;}
+		margin-left: auto;
+		background-color: rgba(88, 31, 43, 0.8);
+		border: rgb(180, 179, 179) double 5px;
+		padding: 20px 0 20px 0;}
 	
 	header.masthead .header-content .header-content-inner h1 {
 		font-size: 50px;}
