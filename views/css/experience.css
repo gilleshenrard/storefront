@@ -4,14 +4,10 @@
 #experience {
 	padding: 0;
 	background: url('../img/road.jpg') no-repeat fixed center;
-	background-height: 110%;
-	background-width: 100%;
-	-webkit-background-height: 110%;
-	-webkit-background-width: 100%;
-	-moz-background-height: 110%;
-	-moz-background-width: 100%;
-	-o-background-height: 110%;
-	-o-background-width: 100%;}
+	background-size: auto 130vh;
+	-webkit-background-size: auto 130vh;
+	-moz-background-size: auto 130vh;
+	-o-background-size: auto 130vh;}
 
 	#experience h2{
 		margin-top: 50px;
