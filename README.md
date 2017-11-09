@@ -13,7 +13,7 @@ Current version : v0.12-beta
 - [jQuery easing](https://jqueryui.com/easing/) v1.4.1
 - [Popper.js](https://popper.js.org/) v1.11.1
 - [ScrollReveal](https://scrollrevealjs.org/) v3.3.6
-- [Stellar.js](http://markdalgleish.com/projects/stellar.js/) v0.6.2
+- [Stellar.js](http://markdalgleish.com/projects/stellar.js/) v0.6.2 (modified to be compatible with jQuery 3.*)
 
 ####To do
 
