@@ -9,7 +9,7 @@ header.masthead {
 	position: relative;
 	text-align: center;
 	color: white;
-	background: url('../img/workshop-landscape.jpg') no-repeat fixed center;
+	background: url('../img/workshop-landscape.jpg') no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -18,37 +18,50 @@ header.masthead {
 	header.masthead .header-content {
 		position: relative;
 		width: 100%;
-		padding: 150px 15px 100px;
+		padding: 150px 0 100px 0;
 		text-align: center;}
+
+		header.masthead .header-content .header-content-inner {
+			background-color: rgba(88, 31, 43, 0.8);
+			border: none;
+			padding: 20px 0 20px 0;}
 	
-	header.masthead .header-content .header-content-inner h1 {
-		font-size: 30px;
-		font-weight: 700;
-		margin-top: 0;
-		margin-bottom: 0;
-		text-transform: uppercase;}
-	
-	header.masthead .header-content .header-content-inner hr {
-		margin: 30px auto;}
-	
-	header.masthead .header-content .header-content-inner p {
-		font-size: 16px;
-		font-weight: 300;
-		color: rgba(255, 255, 255, 0.7);}
+			header.masthead .header-content .header-content-inner h1 {
+				font-size: 30px;
+				font-weight: 700;
+				margin-top: 0;
+				margin-bottom: 0;
+				text-transform: uppercase;}
+
+			header.masthead .header-content .header-content-inner hr {
+				margin: 30px auto;}
+
+			header.masthead .header-content .header-content-inner p {
+				font-size: 16px;
+				font-weight: 300;
+				color: rgba(255, 255, 255, 0.7);}
 
 /*
 *	Responsive
 */
-@media (min-height: 415px){
-	header.masthead .header-content {
-	top: 15%;
-	padding-left: 0;
-	padding-right: 0;}
+@media (orientation: portrait) and ( max-width : 767px) {
+	header.masthead {
+		width: 100%;
+		position: relative;
+		text-align: center;
+		color: white;
+		background: url('../img/workshop-portrait.jpg') no-repeat center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;}
+
+	header.masthead .header-content{
+		top: 15%;
+		padding: 150px 0 100px 0;}
 
 	header.masthead .header-content .header-content-inner {
-		background-color: rgba(88, 31, 43, 0.8);
-		padding: 20px 0 20px 0;
-	}
+		background-color: transparent;}
 }
 
 @media ( min-width : 768px) {
@@ -59,11 +72,11 @@ header.masthead {
 		position: relative;
 		text-align: center;
 		color: white;
-		background: url("../img/workshop.jpg") no-repeat fixed center;
-		-webkit-background-size: auto 110vh;
-		-moz-background-size: auto 110vh;
-		-o-background-size: auto 110vh;
-		background-size: auto 110vh;}
+		background: url("../img/workshop.jpg") no-repeat center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;}
 	
 	header.masthead .header-content {
 		position: absolute;
@@ -75,10 +88,7 @@ header.masthead {
 	header.masthead .header-content .header-content-inner {
 		width: 100%;
 		margin-right: auto;
-		margin-left: auto;
-		background-color: rgba(88, 31, 43, 0.8);
-		border: none;
-		padding: 20px 0 20px 0;}
+		margin-left: auto;}
 	
 	header.masthead .header-content .header-content-inner h1 {
 		font-size: 50px;}
@@ -90,13 +100,9 @@ header.masthead {
 		margin-left: auto;}
 }
 
-@media screen and (orientation: portrait) {
+@media (min-width: 1025) {
 	header.masthead {
-		width: 100%;
-		position: relative;
-		text-align: center;
-		color: white;
-		background: url('../img/workshop-portrait.jpg') no-repeat fixed center;
+		background: url("../img/workshop.jpg") no-repeat fixed center;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;

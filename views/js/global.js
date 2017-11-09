@@ -74,7 +74,9 @@
 		interval: 10000
 	});
 
-	$.stellar({
-		horizontalScrolling: false
-	});
+	if(window.screen.width >= 1025) {
+        $.stellar({
+            horizontalScrolling: false
+        });
+    }
 })(jQuery); // End of use strict
