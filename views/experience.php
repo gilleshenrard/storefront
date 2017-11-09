@@ -1,4 +1,4 @@
-		<section id="experience" data-stellar-background-ratio="0.65">
+		<section id="experience" data-stellar-background-ratio="0.65" data-stellar-vertical-offset="20">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-lg-8 mx-auto text-center">

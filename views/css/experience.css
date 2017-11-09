@@ -3,11 +3,11 @@
 */
 #experience {
 	padding: 0;
-	background: url('../img/road.jpg') no-repeat fixed center;
-	background-size: auto 130vh;
-	-webkit-background-size: auto 130vh;
-	-moz-background-size: auto 130vh;
-	-o-background-size: auto 130vh;}
+	background: url('../img/road-landscape.jpg') no-repeat fixed center;
+	background-size: auto 320vh;
+	-webkit-background-size: auto 320vh;
+	-moz-background-size: auto 320vh;
+	-o-background-size: auto 320vh;}
 
 	#experience h2{
 		margin-top: 50px;
@@ -25,3 +25,52 @@
 	list-style-type: none;
 	text-align: center;
 	padding: 0;}
+
+/*
+*   Responsive
+*/
+@media (orientation: portrait){
+	#experience {
+		background: url('../img/road-portrait.jpg') no-repeat fixed center;
+		background-size: auto 250vh;
+		-webkit-background-size: auto 250vh;
+		-moz-background-size: auto 250vh;
+		-o-background-size: auto 250vh;}
+}
+
+/*  iPhone 5    */
+@media (orientation: portrait) and (min-height: 569px){
+	#experience {
+		background: url('../img/road-portrait.jpg') no-repeat fixed center;
+		background-size: auto 300vh;
+		-webkit-background-size: auto 300vh;
+		-moz-background-size: auto 300vh;
+		-o-background-size: auto 300vh;}
+}
+
+@media (orientation: portrait) and (min-width: 321px) {
+	#experience {
+		background: url('../img/road-portrait.jpg') no-repeat fixed center;
+		background-size: auto 170vh;
+		-webkit-background-size: auto 170vh;
+		-moz-background-size: auto 170vh;
+		-o-background-size: auto 170vh;}
+}
+
+@media ( min-width : 640px){
+	#experience {
+		background: url('../img/road.jpg') no-repeat fixed center;
+		background-size: auto 250vh;
+		-webkit-background-size: auto 250vh;
+		-moz-background-size: auto 250vh;
+		-o-background-size: auto 250vh;}
+}
+
+@media ( min-width : 768px){
+	#experience {
+		background: url('../img/road.jpg') no-repeat fixed center;
+		background-size: auto 170vh;
+		-webkit-background-size: auto 170vh;
+		-moz-background-size: auto 170vh;
+		-o-background-size: auto 170vh;}
+}
