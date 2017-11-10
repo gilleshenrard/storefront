@@ -40,9 +40,16 @@ ul.bargraph li div {
 	ul.bargraph li div.graph-adv-h {
 		width: 100%;}
 
-ul.bargraph-reverse li div{
+div.graph-reverse-container{
+	height: 100px;}
+
+ul.bargraph-reverse{
 	position: absolute;
-	right: 0;}
+	right: 60px;}
+
+	ul.bargraph-reverse li div{
+		position: absolute;
+		right: 0;}
 
 /*
 *	Headers
@@ -65,7 +72,7 @@ div#os li {
 *	Animation
 */
 @keyframes spread {
-	from {width: 0%;}
+	from {width: 0;}
 
 	to {width: 100%;}
 }
