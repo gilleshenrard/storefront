@@ -6,7 +6,7 @@
 	padding-top: 20px;
 	width: 100%;}
 
-ul.bargraph li {
+ul.bargraph li div {
 	height: 35px;
 	font-style: italic;
 	font-weight: bolder;
@@ -16,29 +16,33 @@ ul.bargraph li {
 	margin-bottom: 5px;
 	border-radius: 300px;}
 
-	ul.bargraph li.graph-beg-l {
+	ul.bargraph li div.graph-beg-l {
 		width: 12.5%;}
 	
-	ul.bargraph li.graph-beg-h {
+	ul.bargraph li div.graph-beg-h {
 		width: 25%;}
 	
-	ul.bargraph li.graph-inter-l {
+	ul.bargraph li div.graph-inter-l {
 		width: 37.5%;}
 	
-	ul.bargraph li.graph-inter-h {
+	ul.bargraph li div.graph-inter-h {
 		width: 50%;}
 	
-	ul.bargraph li.graph-pro-l {
+	ul.bargraph li div.graph-pro-l {
 		width: 62.5%;}
 	
-	ul.bargraph li.graph-pro-h {
+	ul.bargraph li div.graph-pro-h {
 		width: 75%;}
 	
-	ul.bargraph li.graph-adv-l {
+	ul.bargraph li div.graph-adv-l {
 		width: 87.5%;}
 	
-	ul.bargraph li.graph-adv-h {
+	ul.bargraph li div.graph-adv-h {
 		width: 100%;}
+
+ul.bargraph-reverse li div{
+	position: absolute;
+	right: 0;}
 
 /*
 *	Headers

@@ -34,7 +34,7 @@
 	
 		<?php include 'controllers/about.php';?>
 
-		<!--?php include 'controllers/skills.php';?-->
+		<?php include 'controllers/skills.php';?>
 		
 		<?php include 'controllers/experience.php';?>
 	
