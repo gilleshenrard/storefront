@@ -47,7 +47,7 @@
 		-o-background-size: cover;}
 }
 
-@media ( min-width : 1367px){
+@media ( min-width : 1280px){
     #experience {
         background: url('../img/road.jpg') no-repeat fixed center;
         background-size: auto 170vh;

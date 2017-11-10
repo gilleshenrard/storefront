@@ -100,7 +100,7 @@ header.masthead {
 		margin-left: auto;}
 }
 
-@media (min-width: 1367) {
+@media (min-width: 1280) {
 	header.masthead {
 		background: url("../img/workshop.jpg") no-repeat fixed center;
 		-webkit-background-size: cover;
