@@ -72,10 +72,4 @@
 	$("#about-slider").carousel({
 		interval: 10000
 	});
-
-	if(window.screen.width >= 1280) {
-        $.stellar({
-            horizontalScrolling: false
-        });
-    }
 })(jQuery); // End of use strict
