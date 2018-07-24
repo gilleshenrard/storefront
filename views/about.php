@@ -1,10 +1,10 @@
 		<section class="bg-primary" id="about">
             <div id="about-slider" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
+                <!--ol class="carousel-indicators">
                     <li data-target="#about-slider" data-slide-to="0" class="active"></li>
                     <li data-target="#about-slider" data-slide-to="1"></li>
                     <li data-target="#about-slider" data-slide-to="2"></li>
-                </ol>
+                </ol-->
                 <div class="carousel-inner bg-light" role="listbox">
 	                <!-- Slide one - Hobbies description -->
 	                <div class="carousel-item active" id="car-item-interests">
@@ -12,7 +12,7 @@
 	                </div>
 
                     <!-- Slide two - Self presentation -->
-                    <div class="carousel-item" id="car-item-about">
+                    <!--div class="carousel-item" id="car-item-about">
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-12 text-center">
@@ -30,7 +30,7 @@
                     </div>
 
                     <!-- Slide Three - Localisation -->
-                    <div class="carousel-item" id="car-item-location">
+                    <!--div class="carousel-item" id="car-item-location">
 	                    <!--div class="row bg-light">
 		                    <div class="col-lg-4 col-md-8 col-sm-12 text-center">
 			                    <div class="interest-box">
@@ -39,15 +39,15 @@
 			                    </div>
 		                    </div>
 	                    </div-->
-                    </div>
+                    <!--/div-->
                 </div>
-                <a class="carousel-control-prev" href="#about-slider" role="button" data-slide="prev">
+                <!--a class="carousel-control-prev" href="#about-slider" role="button" data-slide="prev">
                     <span class="fa fa-chevron-circle-left fa-4x" ></span>
                     <span class="sr-only">Previous</span>
                 </a>
                 <a class="carousel-control-next" href="#about-slider" role="button" data-slide="next">
                     <span class="fa fa-chevron-circle-right fa-4x" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
-                </a>
+                </a-->
             </div>
 		</section>

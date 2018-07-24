@@ -23,7 +23,7 @@
     					</a>
 					</div>
 					<div class="col-lg-2 ml-auto text-center">
-						<a type="text/html" href="https://drive.google.com/file/d/0BwCtXo0bYqQkVnJidFNWRXVGY1k/view?usp=sharing">
+						<a type="text/html" href="https://drive.google.com/file/d/1GQP1NnAhgiYFeypW4b3xh626c282Cj87/view?usp=sharing">
 							<i class="fa fa-file fa-3x sr-contact"></i>
 							<p>CV</p>
 						</a>
