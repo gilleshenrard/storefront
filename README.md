@@ -4,7 +4,7 @@
 Status
 ------
 
-Current version : v0.12d-beta
+Current version : v0.12f-beta
 
 ####Vendors
 - [Bootstrap](https://getbootstrap.com/) v4.0.0-beta
@@ -17,6 +17,7 @@ Current version : v0.12d-beta
 
 ####To do
 
+- Improve mobile and browser websites recognition
 - Improve and personalise theme design
 - Improve carousel design
 - add language banner on map
